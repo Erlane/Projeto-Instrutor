@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header-menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menu {
+	width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-header {
+	width: 100%;
+}
+
+.menu-informacao {
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.menu-list {
+	/*width: 50%;*/
+	display: flex;
+	align-items: center;
+}
+
+.home {
+	background-color: black;
+}
+
+.menu-item {
+	/*font-size: 1.3rem;*/
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #00CA88;
+	display: flex;
+	align-items: center;
+}
+
+main {
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #00FFFF;	
+}
+
+.box-main {
+
+}
+
+.box-title {
+	height: 15vh;
+	color: #fff;
+	font-size: 70px;
+	/*font: Demi Bold 75px/90px Urbane Rounded;*/
+}
+
+.box-paragraph {
+	width: 78%;
+	height: 12vh;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+
+}
+
+.box-button {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.button {
+	width: 25%;
+	height: 7vh;
+	border: none;
+	border-radius: 35px;
+	background-color: #00CA88;
+	color: #fff;
+}
+
+.button1 {
+	width: 40%;
+    height: 7vh;
+    border: none;
+    border-radius: 35px;
+    background-color: #fff;
+    color: #00CA88;
+
+}
+
+.box-image {
+	z-index: 1;
+}
+
+.information {
+
+}
+
+.information-title {
+	color: #00CA88;
+	font-size: 3rem;
+}
+
+.information-paragraph {
+	width: 25%;
+	color: #575757;
+	font-size: 0.8rem;
+
+}
+
+.information-button {
+	width: 25%;
+	height: 7vh;
+	border: none;
+	border-radius: 35px;
+	background-color: #00CA88;
+	color: #fff;
+}
+
+.information-adote {
+	height: 100vh;
+	background-color: #00CA88;
+}
+
+h2 {
+	color: #fff;
+	font-size: 3rem;
+}
+
+p {
+	width: 25%;
+	color: #fff;
+	font-size: 0.8rem;
+}
+
+.sessao {
+	background-color: #141414;
+	padding-left: 1.5rem;
+	width: 100%;
+}
+
+.sessao-cachorros .sessao-cachorros .sessao-cachorros-1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.sessao-cachorros-1 {
+	display: none;
+	
+}
+
+.sessao-image {
+	width: 18vw;
+	margin: 5px;
+    object-fit: cover;
+    transition: all 1s ease;
+}
+
+.seta {
+	color: #FFFFFF;
+	font-size: 6rem;
+	font-weight: 800;
+	display: flex;
+	align-items: center;
+}
+.seta:hover {
+	/*display: none;*/
+	font-size: 5rem;
+}
