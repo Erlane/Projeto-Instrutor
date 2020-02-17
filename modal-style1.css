@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+}
+
+.modal-voluntario {
+	width: 100%;
+	height: 90vh;
+	background-color: #94e1c7;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 10vh;
+	left: 0;
+	z-index: 10;
+}
+
+.section {
+	width: 40%;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.modal-fechar {
+	width: 6%;
+	margin-top: 1rem;
+	margin-right: 20px;
+}
+
+.box {
+	margin-left: 3rem;
+}
+
+.box-title {
+	color: #00CA88;
+	font-size: 2.3rem;
+	font-family: "urbane-rounded",sans-serif;
+	font-weight:600;
+	text-shadow: 0px 3px 6px #00000029;
+	margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.box-paragraph-p {
+	width: 90%;
+	color: #575757;
+	font-family: "Arial";
+    font-weight: normal;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+.box-button {
+	width: 100%;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-evenly;
+    margin-bottom: 1rem;
+    /*margin-top: 1rem;*/
+}
+
+.box-button1 {
+    width: 17rem;
+    height: 5vh;
+	color: #707070;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: "urbane-rounded",sans-serif;
+	font-weight:600;
+}
+
+.box-button2 {
+    width: 7rem;
+    height: 5vh;
+	color: #707070;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: "urbane-rounded",sans-serif;
+	font-weight:600;
+}
+
+.box-button3 {
+    width: 85%;
+    height: 5vh;
+	color: #707070;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: "urbane-rounded",sans-serif;
+	font-weight:600;
+	margin-top: 1rem;
+
+}
+
+.box-h2 {
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-right: 1.5rem;
+}
+
+h2 {
+	color: #707070;
+	font-size: 1rem;
+	font-family: "urbane-rounded",sans-serif;
+	font-weight:600;
+}
+
+.box-confirmationS, .box-confirmationN {
+	width: 6rem;
+    height: 5vh;
+	color: #707070;
+    background: #fff;
+    border-radius: 20px;
+    border: none;
+	background-color: #F2F2F2;
+	font-size: 1rem;
+	font-family: "urbane-rounded",sans-serif;
+	font-weight:600;
+}
+
+.box-confirmationS:hover {
+	color: #fff;
+	background-color: #00CA88;
+}
+
+.box-confirmationN:hover {
+	color: #fff;
+	background-color: #FF0000;
+}
+
+.confirmation {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.confirmation-button {
+	width: 88%;
+	height: 7vh;
+	border: none;
+	border-radius: 35px;
+	background-color: #00CA88;
+	color: #fff;
+	font-size: 0.9rem;
+	font-family: "urbane-rounded",sans-serif;
+	font-weight:600;
+	margin-left: 35px;
+	margin-bottom: 50px;

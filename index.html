@@ -2,7 +2,12 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./modal-style.css">
+	<link rel="stylesheet" href="./modal-style1.css">
+	<link rel="stylesheet" href="./modal-style2.css">
+	<link rel="stylesheet" href="https://use.typekit.net/eqk2gym.css">
 	<title>Ladings dogs</title>
 </head>
 <body>
@@ -13,54 +18,249 @@
 			<nav class="menu-informacao">
 				<ul class="menu-list">
 					<li class="menu-item home"><a href="#home">Home</a><img src="./assets/pata.png"></li>
-
 					<li class="menu-item"><a href="#sobre">Sobre</a></li>
-					<li class="menu-item"><a href="#adote">Adote</a></li>
-					<li class="menu-item"><a href="#voluntario">Seja Voluntário</a></li>
+					<li class="menu-item" onclick="iniciarModal()"><a href="#adote">Adote</a></li>
+					<li class="menu-item" onclick="modalVoluntario()"><a href="#voluntario">Seja voluntário</a></li>
+					<li class="menu-item-mobile"><a href="menu">MENU</a></li>
 				</ul>
 			</nav>
 	</header>
 	<main>
 		<section class="box-main">
-			<h1 class="box-title">Adote um Amigo!</h1>
-			<p class="box-paragraph">Ddoggo ipsum very good stot floofs long water shoob waggy wags blep big ol pupper.</p>
-			<div class="box-button">
-				<button class="button">Fazer doação</button>
-				<button class="button1">Adotar um cachorrinho</button>
+			<div class="box-social">
+                <a class="a" href="#face"><img class="box-social-image" src="./assets/faceWhite.png"></a>
+                <a class="a" href="#medium"><img class="box-social-image" src="./assets/mWhite.png"></a>
+                <a class="a" href="#insta"><img class="box-social-image" src="./assets/instaWhite.png"></a>
+               	<div class="vertical-linha"></div>
+               	<p class= "box-social-paragraph">amigão@email.com</p>
+            </div>
+			<div class="box-geral">
+				<h1 class="box-title-h1">Adote um amigo!</h1>
+				<p class="box-paragraph">Ddoggo ipsum very good stot floofs long water shoob waggy wags blep big ol pupper.</p>
+				<div class="box-buttons">
+					<button class="button">Fazer doação</button>
+					<button class="button1">Adotar um cachorrinho</button>
+				</div>
 			</div>
-			<!-- <img class="box-image" src="./assets/cachorro.png"> -->
 		</section>
-	</main>
-	<div class="information">
-		<h2 class="information-title">Sobre</h2>
-		<img  class="information-image" src="./assets/cachorroo.png">
-		<p class="information-paragraph">dggo ipsum much ruin diet very hand that feed shibe. Puggo blop ur givin me a spook blep, aqua doggo borkdrive. Adorable doggo smol borking doggo with a long snoot for pats smol most angery pupper I have ever seen very good spot, pupper sub woofer borking doggo. Shoober pupper wow very biscit vvv, long water shoob. Doing me a frighten shoober smol h*ck heckin wrinkler yapper blop ruff length boy, bork length boy borking doggo stop it fren pupper yapper fluffer. Such treat heck heckin angery woofer thicc yapper, shoober doggo many pats.</p>
-		<br>
-		<p class="information-paragraph"> Smol wow very biscit aqua doggo length boy, shoob. Long doggo borkdrive sub woofer tungg, he made many woofs. Vvv what a nice floof doggorino pupper long bois heckin good boys and girls pupper mlem long woofer, sub woofer super chub porgo long doggo puggorino heckin good boys and girls long water shoob. Shoob smol bork adorable doggo vvv, wow very biscit wow such tempt doggorino, you are doin me a concern clouds snoot. Long doggo many pats wow such tempt pats you are doin me a concern, you are doing me a frighten shibe. Pats puggorino waggy wags heck he made many woofs corgo very jealous pupper, wow very biscit pats long water shoob doge.</p>
-		<button class="information-button">Seja voluntário</button>
-	</div>
-	<br>
-	<div class="information-adote">
-		<h2>Adote</h2>
-		<p>dggo ipsum much ruin diet very hand that feed shibe. Puggo blop ur givin me a spook blep, aqua doggo borkdrive. Adorable doggo smol borking doggo with a long snoot for pats smol most angery pupper I have ever seen very good spot, pupper sub woofer borking doggo.</p>
-		<div class="sessao">
-			<div class="sessao-cachorros">
-				<img class="sessao-image" src="./assets/cachorro1.png">
-				<img class="sessao-image" src="./assets/cachorro2.png">
-				<img class="sessao-image" src="./assets/cachorro3.png">
-				<img class="sessao-image" src="./assets/cachorro4.png">
-				<p class="seta" onclick="test('sessao-cachorros')">&rsaquo;</p>
+		<section class="container-sobre">
+			<div class="container-sobre-geral">
+				<h2 class="container-sobre-title">Sobre</h2>
+				<div class="container-sobre-paragraph">
+					<p class="container-sobre-paragraph1">dggo ipsum much ruin diet very hand that feed shibe. Puggo blop ur givin me a spook blep, aqua doggo borkdrive. Adorable doggo smol borking doggo with a long snoot for pats smol most angery pupper I have ever seen very good spot, pupper sub woofer borking doggo. Shoober pupper wow very biscit vvv, long water shoob. Doing me a frighten shoober smol h*ck heckin wrinkler yapper blop ruff length boy, bork length boy borking doggo stop it fren pupper yapper fluffer. Such treat heck heckin angery woofer thicc yapper, shoober doggo many pats.</p>
+					<p class="container-sobre-paragraph1"> Smol wow very biscit aqua doggo length boy, shoob. Long doggo borkdrive sub woofer tungg, he made many woofs. Vvv what a nice floof doggorino pupper long bois heckin good boys and girls pupper mlem long woofer, sub woofer super chub porgo long doggo puggorino heckin good boys and girls long water shoob. Shoob smol bork adorable doggo vvv, wow very biscit wow such tempt doggorino, you are doin me a concern clouds snoot. Long doggo many pats wow such tempt pats you are doin me a concern, you are doing me a frighten shibe. Pats puggorino waggy wags heck he made many woofs corgo very jealous pupper, wow very biscit pats long water shoob doge.</p>
+				</div>
+				<div class="container-sobre-button">
+					<button class="container-sobre-button1">Seja voluntário</button>
+				</div>
 			</div>
-			<div class="sessao-cachorros-1">
-				<p class="seta" onclick="test2('sessao-cachorros')">&lsaquo;</p>
-				<img class="sessao-image" src="./assets/cachorro5.png">
-				<img class="sessao-image" src="./assets/cachorro6.png">
-				<img class="sessao-image" src="./assets/cachorro7.png">
-				<img class="sessao-image" src="./assets/cachorro8.png">
-				<img class="sessao-image" src="./assets/cachorro9.png">
+			<div class="container-sobre-images">
+				<img class="box-image1" src="./assets/cachorroo.png">
+				<img class="box-image2" src="./assets/bolinha1.png">
+				<img class="box-image3" src="./assets/bolinha2.png">
+				<img class="box-image4" src="./assets/bolinha3.png">
+			</div>
+		</section>
+		<div class="container-adote">	
+			<h2 class="container-adote-title">Adote</h2>
+			<p class="container-adote-p">dggo ipsum much ruin diet very hand that feed shibe. Puggo blop ur givin me a spook blep, aqua doggo borkdrive. Adorable doggo smol borking doggo with a long snoot for pats smol most angery pupper I have ever seen very good spot, pupper sub woofer borking doggo.</p>
+			<div class="container-box">
+				<div class="sessao-cachorro-1">
+					<div class="container">
+						<div class="container-square">
+							<div class="square"></div>
+							<img class="container-image" src="./assets/cachorro1.png">
+						</div>
+						<div class="container-geral">
+							<h4 class="container-name">Luna</h4>
+							<p class="container-paragraph">5 meses</p>
+							<span class="container-adotar">Adotar</span>
+						</div>
+					</div>
+					<div class="container">
+						<div class="container-square">
+							<div class="square"></div>
+							<img class="container-image" src="./assets/cachorro2.png">
+						</div>
+						<div class="container-geral">
+							<h4 class="container-name">Duque</h4>
+							<p class="container-paragraph">2 anos</p>
+							<span class="container-adotar">Adotar</span>
+						</div>
+					</div>
+					<div class="container">
+						<div class="container-square">
+							<div class="square"></div>
+							<img class="container-image" src="./assets/cachorro3.png">
+						</div>
+						<div class="container-geral">
+							<h4 class="container-name">Pérola</h4>
+							<p class="container-paragraph">1 ano e 4 meses</p>
+							<span class="container-adotar">Adotar</span>
+						</div>
+					</div>
+					<div class="container">
+						<div class="container-square">
+							<div class="square"></div>
+							<img class="container-image" src="./assets/cachorro4.png">
+						</div>
+						<div class="container-geral">
+							<h4 class="container-name">Thor</h4>
+							<p class="container-paragraph">3 meses</p>
+							<span class="container-adotar">Adotar</span>
+						</div>
+					</div>
+						<div class="container-finish">
+							<p class="container-p" onclick="click()">Ver mais</p>
+							<p class="seta" onclick="test('sessao-cachorro')"> > </p>
+						</div>	
+				</div>
+				
+		<!-- SEGUNDA PARTE DE CACHORRO  -->
+				<div class="sessao-cachorro-2">
+						<div class="container-finish2">
+							<p class="seta2" onclick="test2('sessao-cachorro')"> < </p>
+						</div>
+					<div class="container-parte2">
+						<div class="container-square">
+							<div class="square"></div>
+							<img class="container-image" src="./assets/cachorro5.png">
+						</div>
+						<div class="container-geral">
+							<h4 class="container-name">Vilma</h4>
+							<p class="container-paragraph">3 anos</p>
+							<span class="container-adotar">Adotar</span>
+						</div>
+					</div>
+					<div class="container-parte2">
+						<div class="container-square">
+							<div class="square"></div>
+							<img class="container-image" src="./assets/cachorro6.png">
+						</div>
+						<div class="container-geral">
+							<h4 class="container-name">Princesa</h4>
+							<p class="container-paragraph">2 meses</p>
+							<span class="container-adotar">Adotar</span>
+						</div>
+					</div>
+					<div class="container-parte2">
+						<div class="container-square">
+							<div class="square"></div>
+							<img class="container-image" src="./assets/cachorro7.png">
+						</div>
+						<div class="container-geral">
+							<h4 class="container-name">Eva</h4>
+							<p class="container-paragraph">3 anos</p>
+							<span class="container-adotar">Adotar</span>
+						</div>
+					</div>
+					<div class="container-parte2">
+						<div class="container-square">
+							<div class="square"></div>
+							<img class="container-image" src="./assets/cachorro8.png">
+						</div>
+						<div class="container-geral">
+							<h4 class="container-name">Rex</h4>
+							<p class="container-paragraph">1 ano</p>
+							<span class="container-adotar">Adotar</span>
+						</div>
+					</div>
+				</div>
+		<!-- TERMINA AQUI  -->
 			</div>
 		</div>
-	</div>
-	<script type="text/javascript" src="main.js"></script>
+	</main>
+	<footer class="footer">
+		<span class="footer-span">
+			<img  class="footer-image" src="./assets/logo.png">
+		</span>
+		<span class="footer-span-image">
+			<div class="footer-logos">
+				<img class="footer-image1" src="./assets/face.png">
+				<img class="footer-image1" src="./assets/m.png">
+				<img class="footer-image1" src="./assets/insta.png">
+			</div>
+			<p class="footer-paragraph">amigão@email.com</p>
+			<p class="footer-paragraph1">Rua Rodrigues Alves, n°5 Rio de Janeiro - RJ</p>
+		</span>
+		<span class="footer-finish">
+			<div class="footer-linha"></div>
+			<div class="footer-geral">
+				<a href="#home" class="footer-paragraph-h3"><h3>Home</h3></a>
+				<a href="#sobre" class="footer-paragraph-h3"><h3>Sobre</h3></a>
+				<a href="#adote" class="footer-paragraph-h3"><h3>Adote</h3></a>
+				<a href="#sejaVoluntario" class="footer-paragraph-h3"><h3>Seja voluntário</h3></a>
+			</div>
+		</span>
+	</footer>
+
+<!-- MODAL  -->
+	<section class="overlay-modal">
+		<section class="section">
+			<img class="modal-fechar" onclick="fecharModal()" src="./assets/fechar.png">
+			<span>
+				<div class="modal">
+					<img class="modal-image" src="./assets/cachorro1.png">
+					<p class="modal-paragraph">Luna - 5 meses</p>
+				</div>
+				<div class="modal-title">
+					<h1 class="modal-title-h1"> Pronto para ter um novo amiguinho?</h1>
+					<p class="modal-title-p">Antes de levar a Luna para seu novo lar, precisamos saber alguma informação sobre você.</p>
+				</div>
+			</span>
+			<div class="modal-button">
+				<button class="modal-button1">Nome completo</button>
+				<button class="modal-button2">Idade</button>
+				<button class="modal-button3">Email</button>
+			</div>
+			<div class="modal-h2">
+				<h2>Possui algum animal?</h2>
+					<button class="modal-confirmationS" onclick="confirmar()">Sim</button>
+					<button class="modal-confirmationN">Não</button>
+			</div>
+			<div class="confirmation">
+				<button class="confirmation-button">Adotar</button>
+			</div>
+		</section>
+	</section>
+
+<!-- MODAL VOLUNTÁRIO -->
+	<section class="modal-voluntario">
+		<section class="section">
+			<img class="modal-fechar" onclick="fechar()" src="./assets/fechar.png">
+			<div class="box">
+				<h1 class="box-title">Seja voluntário</h1>
+				<p class="box-paragraph-p">dggo ipsum much ruin diet very hand that feed shibe. Puggo blop ur givin me a spook blep, aqua doggo borkdrive. Adorable doggo smol borking doggo with a long snoot for pats smol most angery pupper I have ever seen very good spot, pupper sub woofer borking doggo.</p>
+			</div>
+			<div class="box-button">
+				<button class="box-button1">Nome completo</button>
+				<button class="box-button2">Idade</button>
+				<button class="box-button3">Email</button>
+			</div>
+			<div class="box-h2">
+				<h2>Possui algum animal?</h2>
+					<button class="box-confirmationS">Sim</button>
+					<button class="box-confirmationN">Não</button>
+			</div>
+			<div class="confirmation">
+				<button class="confirmation-button">Enviar</button>
+			</div>
+		</section>
+	</section>
+
+<!-- MODAL-OBRIGADO -->
+	<section class="modal-obrigado">
+		<section class="modal">
+		<img class="modal-fechar" onclick="fecharAgradecer()" src="./assets/fechar.png">
+			<div class="container-agradecimento">
+				<h1 class="container-title">Obrigado!</h1>
+				<p class="container-paragraphs">Recebemos a sua inscrição!</p>
+				<p class="container-paragraphs">Vamos analisar e entraremos em contato através do email enviado pelo formulário.</p>
+				<button class="container-button">Voltar para home</button>
+			</div>
+		</section>
+	</section>
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="main-modal.js"></script>
 </body>
 </html>

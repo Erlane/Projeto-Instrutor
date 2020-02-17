@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+}
+
+.modal-obrigado {
+	width: 100%;
+	height: 90vh;
+	background-color: #94e1c7;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 10vh;
+	left: 0;
+	z-index: 10;
+}
+
+.modal {
+	width: 40%;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.modal-fechar {
+	width: 6%;
+	margin-top: 1rem;
+	margin-right: 20px;
+}
+
+.container-agradecimento {
+	margin-left: 53px;
+    margin-bottom: 53px;
+}
+
+.container-title {
+	color: #00CA88;
+	font-size: 2.8rem;
+	font-family: "urbane-rounded",sans-serif;
+	font-weight:600;
+	text-shadow: 0px 3px 6px #00000029;
+	margin-bottom: 75px;
+}
+
+.container-paragraphs {
+	color: #575757;
+	font-size: 1rem;
+}
+
+.container-paragraphs {
+	width: 85%;
+	color: #575757;
+	font-size: 1rem;
+	margin-top: -3rem;
+    margin-bottom: 49px;
+}
+
+.container-voltar {
+	width: 100%;
+	margin-left: 20px;
+}
+
+.container-button {
+	width: 90%;
+	height: 8vh;
+	border: none;
+	border-radius: 35px;
+	background-color: #00CA88;
+	color: #fff;
+	font-size: 0.9rem;
+	font-family: "urbane-rounded",sans-serif;
+}
